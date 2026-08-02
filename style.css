@@ -1,0 +1,780 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+    color: #263238;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    height: 82px;
+    background: #173f5f;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 35px;
+    gap: 20px;
+}
+
+.logo {
+    background: white;
+    color: #173f5f;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    padding: 9px 13px;
+    border-radius: 6px;
+}
+
+.header-title {
+    flex: 1;
+}
+
+.header-title h1 {
+    font-size: 23px;
+}
+
+.header-title p {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.student {
+    text-align: right;
+    font-size: 12px;
+}
+
+.student span {
+    display: block;
+    color: #b9d9ee;
+    margin-top: 4px;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+nav {
+    height: 48px;
+
+    background: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 35px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+
+    color: #173f5f;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #20639b;
+}
+
+
+/* ================= MAIN ================= */
+
+main {
+    width: 94%;
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 18px 0;
+}
+
+
+/* ================= SECTIONS ================= */
+
+section {
+    background: white;
+
+    padding: 18px;
+
+    margin-bottom: 16px;
+
+    border-radius: 7px;
+
+    box-shadow: 0 2px 7px rgba(0,0,0,0.07);
+}
+
+section h2 {
+    color: #173f5f;
+
+    font-size: 18px;
+
+    padding-bottom: 7px;
+
+    margin-bottom: 13px;
+
+    border-bottom: 2px solid #20639b;
+}
+
+
+/* ================= HOME ================= */
+
+.welcome {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.welcome h2 {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome p {
+    color: #777;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.status {
+    background: #e7f5ec;
+
+    color: #287a45;
+
+    padding: 6px 12px;
+
+    border-radius: 15px;
+
+    font-size: 10px;
+
+    font-weight: bold;
+}
+
+
+/* ================= CARDS ================= */
+
+.cards {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 12px;
+}
+
+.card {
+    background: #eef5fb;
+
+    padding: 13px;
+
+    text-align: center;
+
+    border-radius: 6px;
+
+    border-top: 3px solid #20639b;
+}
+
+.card small {
+    display: block;
+
+    color: #666;
+
+    font-size: 10px;
+
+    margin-bottom: 5px;
+}
+
+.card strong {
+    color: #173f5f;
+
+    font-size: 19px;
+}
+
+
+/* ================= PROFILE ================= */
+
+.profile {
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+}
+
+.avatar {
+    width: 95px;
+    height: 95px;
+
+    min-width: 95px;
+
+    border-radius: 50%;
+
+    background: #173f5f;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 42px;
+
+    font-weight: bold;
+}
+
+.profile-info {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 9px 35px;
+
+    width: 100%;
+}
+
+.profile-info label {
+    font-size: 10px;
+
+    color: #777;
+}
+
+.profile-info p {
+    font-size: 12px;
+
+    font-weight: bold;
+
+    margin-top: 2px;
+}
+
+
+/* ================= TABLE ================= */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #d9dfe3;
+
+    padding: 8px;
+
+    text-align: center;
+
+    font-size: 11px;
+}
+
+th {
+    background: #173f5f;
+
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f5f8fa;
+}
+
+
+/* ================= ACADEMIC SUMMARY ================= */
+
+.academic-summary {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
+
+    margin-top: 12px;
+}
+
+.academic-summary div {
+    background: #eef5fb;
+
+    padding: 10px;
+
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+.academic-summary small {
+    display: block;
+
+    color: #666;
+
+    font-size: 9px;
+
+    margin-bottom: 4px;
+}
+
+.academic-summary strong {
+    color: #173f5f;
+
+    font-size: 16px;
+}
+
+
+/* ================= COURSES ================= */
+
+.section-info {
+    color: #777;
+
+    font-size: 11px;
+
+    margin-top: -7px;
+
+    margin-bottom: 12px;
+}
+
+.courses {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
+}
+
+.course {
+    background: #eef5fb;
+
+    padding: 12px;
+
+    border-left: 3px solid #20639b;
+
+    border-radius: 5px;
+}
+
+.course h3 {
+    color: #173f5f;
+
+    font-size: 13px;
+
+    margin-bottom: 5px;
+}
+
+.course p {
+    color: #666;
+
+    font-size: 10px;
+
+    margin-bottom: 6px;
+}
+
+.course span {
+    font-size: 9px;
+
+    background: #173f5f;
+
+    color: white;
+
+    padding: 4px 7px;
+
+    border-radius: 10px;
+}
+
+
+/* ================= TIMETABLE ================= */
+
+.table-container {
+    width: 100%;
+
+    overflow-x: auto;
+}
+
+.timetable th,
+.timetable td {
+    font-size: 10px;
+
+    padding: 8px 5px;
+}
+
+
+/* ================= NOTICE ================= */
+
+.notice {
+    background: #fff8e5;
+
+    border-left: 3px solid #d99a00;
+
+    padding: 9px 12px;
+
+    margin-bottom: 7px;
+
+    border-radius: 4px;
+}
+
+.notice:last-child {
+    margin-bottom: 0;
+}
+
+.notice b {
+    display: block;
+
+    color: #173f5f;
+
+    font-size: 11px;
+
+    margin-bottom: 3px;
+}
+
+.notice p {
+    color: #666;
+
+    font-size: 10px;
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 10px;
+}
+
+.contact div {
+    background: #eef5fb;
+
+    padding: 11px;
+
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+.contact b {
+    color: #173f5f;
+
+    font-size: 10px;
+}
+
+.contact p {
+    color: #666;
+
+    font-size: 9px;
+
+    margin-top: 5px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #173f5f;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+
+    font-size: 9px;
+}
+
+
+/* ================= PRINT ================= */
+
+@media print {
+
+    @page {
+        size: A4 portrait;
+        margin: 8mm;
+    }
+
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    body {
+        background: white;
+    }
+
+    header {
+        height: 65px;
+
+        padding: 0 18px;
+    }
+
+    .logo {
+        font-size: 19px;
+
+        padding: 6px 9px;
+    }
+
+    .header-title h1 {
+        font-size: 18px;
+    }
+
+    .header-title p {
+        font-size: 8px;
+    }
+
+    .student {
+        font-size: 8px;
+    }
+
+    nav {
+        height: 30px;
+
+        gap: 17px;
+    }
+
+    nav a {
+        font-size: 8px;
+    }
+
+    main {
+        width: 100%;
+
+        padding: 7px 0;
+    }
+
+    section {
+        padding: 10px;
+
+        margin-bottom: 7px;
+
+        box-shadow: none;
+
+        border: 1px solid #ddd;
+    }
+
+    section h2 {
+        font-size: 13px;
+
+        padding-bottom: 4px;
+
+        margin-bottom: 8px;
+    }
+
+    .welcome {
+        margin-bottom: 8px;
+    }
+
+    .welcome h2 {
+        font-size: 13px;
+    }
+
+    .welcome p {
+        font-size: 8px;
+    }
+
+    .status {
+        font-size: 7px;
+
+        padding: 4px 7px;
+    }
+
+    .cards {
+        gap: 6px;
+    }
+
+    .card {
+        padding: 7px;
+    }
+
+    .card small {
+        font-size: 7px;
+    }
+
+    .card strong {
+        font-size: 13px;
+    }
+
+    .profile {
+        gap: 12px;
+    }
+
+    .avatar {
+        width: 65px;
+        height: 65px;
+
+        min-width: 65px;
+
+        font-size: 27px;
+    }
+
+    .profile-info {
+        gap: 4px 15px;
+    }
+
+    .profile-info label {
+        font-size: 7px;
+    }
+
+    .profile-info p {
+        font-size: 8px;
+    }
+
+    th,
+    td {
+        padding: 5px;
+
+        font-size: 8px;
+    }
+
+    .academic-summary {
+        gap: 6px;
+
+        margin-top: 7px;
+    }
+
+    .academic-summary div {
+        padding: 7px;
+    }
+
+    .academic-summary small {
+        font-size: 7px;
+    }
+
+    .academic-summary strong {
+        font-size: 12px;
+    }
+
+    .courses {
+        gap: 6px;
+    }
+
+    .course {
+        padding: 8px;
+    }
+
+    .course h3 {
+        font-size: 9px;
+    }
+
+    .course p {
+        font-size: 7px;
+    }
+
+    .course span {
+        font-size: 7px;
+
+        padding: 3px 5px;
+    }
+
+    .timetable th,
+    .timetable td {
+        font-size: 7px;
+
+        padding: 5px 3px;
+    }
+
+    .notice {
+        padding: 6px 8px;
+
+        margin-bottom: 5px;
+    }
+
+    .notice b {
+        font-size: 8px;
+    }
+
+    .notice p {
+        font-size: 7px;
+    }
+
+    .contact {
+        gap: 6px;
+    }
+
+    .contact div {
+        padding: 7px;
+    }
+
+    .contact b {
+        font-size: 8px;
+    }
+
+    .contact p {
+        font-size: 7px;
+    }
+
+    footer {
+        padding: 7px;
+
+        font-size: 7px;
+    }
+
+    /* Start page 2 with timetable */
+    #timetable {
+        break-before: page;
+        page-break-before: always;
+    }
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 700px) {
+
+    header {
+        height: auto;
+
+        padding: 12px;
+    }
+
+    .header-title h1 {
+        font-size: 17px;
+    }
+
+    nav {
+        overflow-x: auto;
+
+        justify-content: flex-start;
+
+        padding: 0 12px;
+
+        gap: 18px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .profile {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .profile-info {
+        grid-template-columns: 1fr;
+    }
+
+    .courses {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
