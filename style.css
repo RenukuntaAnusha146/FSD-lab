@@ -1,0 +1,223 @@
+/* Basic Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background-color: #8b3a3a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #5f2525;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #ffd27f;
+}
+
+
+/* Common Section */
+
+section {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+
+/* Home */
+
+.home {
+    text-align: center;
+    background-color: #fff0d5;
+}
+
+.home h2 {
+    color: #8b3a3a;
+    margin-bottom: 10px;
+}
+
+.home p {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #8b3a3a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f2525;
+}
+
+
+/* Section Headings */
+
+section h2 {
+    text-align: center;
+    color: #8b3a3a;
+    margin-bottom: 20px;
+}
+
+
+/* Food Category */
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category h3 {
+    background-color: #8b3a3a;
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+
+/* Food Item */
+
+.food {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.food b {
+    display: block;
+    color: #5f2525;
+}
+
+.food small {
+    display: block;
+    color: #777;
+    margin-top: 4px;
+}
+
+.food strong {
+    color: #8b3a3a;
+}
+
+
+/* About */
+
+.about {
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+/* Contact */
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    margin: 8px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #5f2525;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+/* Print */
+
+@media print {
+
+    @page {
+        size: A4;
+        margin: 12mm;
+    }
+
+    nav {
+        display: none;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    section {
+        width: 100%;
+        margin: 10px 0;
+        box-shadow: none;
+    }
+
+    .home {
+        padding: 15px;
+    }
+
+    button {
+        display: none;
+    }
+
+    .food {
+        padding: 7px;
+    }
+
+    .category {
+        margin-bottom: 12px;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
+}
