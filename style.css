@@ -1,135 +1,67 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    padding:30px;
+    font-family:Arial;
+    background:#4facfe;
 }
 
-html {
-    scroll-behavior: smooth;
+.container{
+    max-width:1000px;
+    margin:auto;
 }
 
-body {
-    font-family: Arial, sans-serif;
+h1,.forecast-title{
+    text-align:center;
+    color:white;
 }
 
-/* Navbar */
-
-.navbar {
-    background-color: rgba(0, 0, 0, 0.85);
-    transition: 0.3s;
+.search-box{
+    display:flex;
+    gap:10px;
 }
 
-.navbar-brand span {
-    color: #ffc107;
+input,button{
+    padding:12px;
+    border:none;
+    border-radius:5px;
 }
 
-.nav-link {
-    margin-left: 15px;
+input{flex:1}
+
+button{
+    background:black;
+    color:white;
+    cursor:pointer;
 }
 
-.nav-link:hover {
-    color: #ffc107 !important;
+.current-weather,.forecast-card{
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    text-align:center;
 }
 
-
-/* Hero Section */
-
-.hero-section {
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)),
-        url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80");
-
-    background-size: cover;
-    background-position: center;
-
-    color: white;
+.temperature{
+    font-size:50px;
 }
 
-.hero-section span {
-    color: #ffc107;
+.details{
+    display:flex;
+    justify-content:center;
+    gap:40px;
 }
 
-.hero-section p {
-    max-width: 600px;
+.forecast{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:10px;
 }
 
+.hidden{display:none}
 
-/* About */
-
-.about-text {
-    max-width: 700px;
-    font-size: 18px;
-}
-
-
-/* Cards */
-
-.card {
-    transition: transform 0.3s, box-shadow 0.3s;
-    overflow: hidden;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2) !important;
-}
-
-.card-img-top {
-    height: 230px;
-    object-fit: cover;
-}
-
-
-/* Motivation */
-
-.motivation-section {
-    background-color: #212529;
-    color: white;
-}
-
-.motivation-section h2 {
-    color: #ffc107;
-}
-
-
-/* Footer */
-
-.footer {
-    background-color: #111;
-    color: white;
-}
-
-.footer span {
-    color: #ffc107;
-}
-
-.social-icons a {
-    color: white;
-    font-size: 24px;
-    margin: 10px;
-    transition: 0.3s;
-}
-
-.social-icons a:hover {
-    color: #ffc107;
-}
-
-
-/* Responsive */
-
-@media (max-width: 768px) {
-
-    .hero-section h1 {
-        font-size: 45px;
-    }
-
-    .hero-section {
-        text-align: center;
-    }
-
-    .nav-link {
-        margin-left: 0;
-    }
-
+@media(max-width:700px){
+    .forecast{grid-template-columns:repeat(2,1fr)}
 }
