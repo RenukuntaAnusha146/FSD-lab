@@ -1,30 +1,40 @@
 import React, { useState, useEffect } from "react";
 
 function App() {
-  const [employee, setEmployee] = useState("");
-  const [task, setTask] = useState("");
+  const [developer, setDeveloper] = useState("");
+  const [resource, setResource] = useState("");
+  const [schedule, setSchedule] = useState("");
 
-  const [tasks, setTasks] = useState(() => {
-    const savedTasks = localStorage.getItem("employeeTasks");
-    return savedTasks ? JSON.parse(savedTasks) : [];
+  const [allocations, setAllocations] = useState(() => {
+    const saved = localStorage.getItem("allocations");
+    return saved ? JSON.parse(saved) : [];
   });
 
   useEffect(() => {
-    localStorage.setItem("employeeTasks", JSON.stringify(tasks));
-  }, [tasks]);
+    localStorage.setItem("allocations", JSON.stringify(allocations));
+  }, [allocations]);
 
-  const addTask = () => {
-    if (employee.trim() === "" || task.trim() === "") return;
+  const addAllocation = () => {
+    if (
+      developer.trim() === "" ||
+      resource.trim() === "" ||
+      schedule.trim() === ""
+    )
+      return;
 
-    setTasks([...tasks, { employee, task }]);
+    setAllocations([
+      ...allocations,
+      { developer, resource, schedule }
+    ]);
 
-    setEmployee("");
-    setTask("");
+    setDeveloper("");
+    setResource("");
+    setSchedule("");
   };
 
-  const deleteTask = (index) => {
-    const updatedTasks = tasks.filter((_, i) => i !== index);
-    setTasks(updatedTasks);
+  const deleteAllocation = (index) => {
+    const updated = allocations.filter((_, i) => i !== index);
+    setAllocations(updated);
   };
 
   return (
@@ -41,63 +51,76 @@ function App() {
     >
       <div
         style={{
-          width: "650px",
+          width: "750px",
           background: "white",
           padding: "35px",
           borderRadius: "18px",
           boxShadow: "0 10px 30px rgba(0,0,0,0.2)"
         }}
       >
-
         <h1
           style={{
             textAlign: "center",
             color: "#39358f",
-            fontSize: "32px",
+            fontSize: "30px",
             marginBottom: "25px",
             whiteSpace: "nowrap"
           }}
         >
-          Manager Task Assignment
+          Software Tools & Resource Schedule
         </h1>
 
         <div
           style={{
             display: "flex",
             gap: "10px",
-            marginBottom: "20px"
+            marginBottom: "25px"
           }}
         >
           <input
             type="text"
-            placeholder="Employee Name"
-            value={employee}
-            onChange={(e) => setEmployee(e.target.value)}
+            placeholder="Developer Name"
+            value={developer}
+            onChange={(e) => setDeveloper(e.target.value)}
             style={{
               flex: 1,
               padding: "12px",
               border: "2px solid #ddd",
               borderRadius: "8px",
-              fontSize: "15px"
+              fontSize: "14px"
             }}
           />
 
           <input
             type="text"
-            placeholder="Enter Task"
-            value={task}
-            onChange={(e) => setTask(e.target.value)}
+            placeholder="Tool / Resource"
+            value={resource}
+            onChange={(e) => setResource(e.target.value)}
             style={{
               flex: 1,
               padding: "12px",
               border: "2px solid #ddd",
               borderRadius: "8px",
-              fontSize: "15px"
+              fontSize: "14px"
+            }}
+          />
+
+          <input
+            type="text"
+            placeholder="Schedule"
+            value={schedule}
+            onChange={(e) => setSchedule(e.target.value)}
+            style={{
+              width: "120px",
+              padding: "12px",
+              border: "2px solid #ddd",
+              borderRadius: "8px",
+              fontSize: "14px"
             }}
           />
 
           <button
-            onClick={addTask}
+            onClick={addAllocation}
             style={{
               padding: "12px 18px",
               background: "#6c4ce8",
@@ -105,7 +128,7 @@ function App() {
               border: "none",
               borderRadius: "8px",
               cursor: "pointer",
-              fontSize: "15px"
+              fontSize: "14px"
             }}
             onMouseOver={(e) =>
               (e.target.style.background = "#5035b8")
@@ -114,7 +137,7 @@ function App() {
               (e.target.style.background = "#6c4ce8")
             }
           >
-            Assign
+            Allocate
           </button>
         </div>
 
@@ -125,7 +148,7 @@ function App() {
             margin: 0
           }}
         >
-          {tasks.map((item, index) => (
+          {allocations.map((item, index) => (
             <li
               key={index}
               style={{
@@ -151,11 +174,12 @@ function App() {
                 <b style={{ color: "#6c4ce8" }}>
                   {index + 1}.
                 </b>{" "}
-                <b>{item.employee}</b> — {item.task}
+                <b>{item.developer}</b> — {item.resource} —{" "}
+                <b>{item.schedule}</b>
               </span>
 
               <button
-                onClick={() => deleteTask(index)}
+                onClick={() => deleteAllocation(index)}
                 style={{
                   background: "#ff5c5c",
                   color: "white",
@@ -185,9 +209,8 @@ function App() {
             fontSize: "14px"
           }}
         >
-          Assign tasks, manage work, achieve goals!
+          Manage resources efficiently and stay on schedule!
         </p>
-
       </div>
     </div>
   );
