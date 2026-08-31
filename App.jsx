@@ -1,26 +1,30 @@
 import React, { useState, useEffect } from "react";
 
 function App() {
-  const [activity, setActivity] = useState("");
+  const [employee, setEmployee] = useState("");
+  const [task, setTask] = useState("");
 
-  const [activities, setActivities] = useState(() => {
-    const savedActivities = localStorage.getItem("activities");
-    return savedActivities ? JSON.parse(savedActivities) : [];
+  const [tasks, setTasks] = useState(() => {
+    const savedTasks = localStorage.getItem("employeeTasks");
+    return savedTasks ? JSON.parse(savedTasks) : [];
   });
 
   useEffect(() => {
-    localStorage.setItem("activities", JSON.stringify(activities));
-  }, [activities]);
+    localStorage.setItem("employeeTasks", JSON.stringify(tasks));
+  }, [tasks]);
 
-  const addActivity = () => {
-    if (activity.trim() === "") return;
-    setActivities([...activities, activity]);
-    setActivity("");
+  const addTask = () => {
+    if (employee.trim() === "" || task.trim() === "") return;
+
+    setTasks([...tasks, { employee, task }]);
+
+    setEmployee("");
+    setTask("");
   };
 
-  const deleteActivity = (index) => {
-    const updatedActivities = activities.filter((_, i) => i !== index);
-    setActivities(updatedActivities);
+  const deleteTask = (index) => {
+    const updatedTasks = tasks.filter((_, i) => i !== index);
+    setTasks(updatedTasks);
   };
 
   return (
@@ -37,7 +41,7 @@ function App() {
     >
       <div
         style={{
-          width: "600px",
+          width: "650px",
           background: "white",
           padding: "35px",
           borderRadius: "18px",
@@ -51,45 +55,57 @@ function App() {
             color: "#39358f",
             fontSize: "32px",
             marginBottom: "25px",
-            whiteSpace: "nowrap",
-            fontWeight: "bold"
+            whiteSpace: "nowrap"
           }}
         >
-          Daily Activities of Students
+          Manager Task Assignment
         </h1>
 
         <div
           style={{
             display: "flex",
             gap: "10px",
-            marginBottom: "25px"
+            marginBottom: "20px"
           }}
         >
           <input
             type="text"
-            placeholder="Enter Daily Activity"
-            value={activity}
-            onChange={(e) => setActivity(e.target.value)}
+            placeholder="Employee Name"
+            value={employee}
+            onChange={(e) => setEmployee(e.target.value)}
             style={{
               flex: 1,
               padding: "12px",
               border: "2px solid #ddd",
               borderRadius: "8px",
-              fontSize: "16px",
-              outline: "none"
+              fontSize: "15px"
+            }}
+          />
+
+          <input
+            type="text"
+            placeholder="Enter Task"
+            value={task}
+            onChange={(e) => setTask(e.target.value)}
+            style={{
+              flex: 1,
+              padding: "12px",
+              border: "2px solid #ddd",
+              borderRadius: "8px",
+              fontSize: "15px"
             }}
           />
 
           <button
-            onClick={addActivity}
+            onClick={addTask}
             style={{
-              padding: "12px 22px",
+              padding: "12px 18px",
               background: "#6c4ce8",
               color: "white",
               border: "none",
               borderRadius: "8px",
-              fontSize: "16px",
-              cursor: "pointer"
+              cursor: "pointer",
+              fontSize: "15px"
             }}
             onMouseOver={(e) =>
               (e.target.style.background = "#5035b8")
@@ -98,7 +114,7 @@ function App() {
               (e.target.style.background = "#6c4ce8")
             }
           >
-            Add
+            Assign
           </button>
         </div>
 
@@ -109,7 +125,7 @@ function App() {
             margin: 0
           }}
         >
-          {activities.map((item, index) => (
+          {tasks.map((item, index) => (
             <li
               key={index}
               style={{
@@ -117,10 +133,9 @@ function App() {
                 justifyContent: "space-between",
                 alignItems: "center",
                 background: "#f5f3ff",
-                padding: "14px 18px",
+                padding: "15px 18px",
                 marginBottom: "12px",
                 borderRadius: "10px",
-                fontSize: "16px",
                 transition: "0.3s"
               }}
               onMouseOver={(e) => {
@@ -132,15 +147,15 @@ function App() {
                 e.currentTarget.style.transform = "translateX(0)";
               }}
             >
-              <span>
+              <span style={{ color: "#333" }}>
                 <b style={{ color: "#6c4ce8" }}>
                   {index + 1}.
                 </b>{" "}
-                {item}
+                <b>{item.employee}</b> — {item.task}
               </span>
 
               <button
-                onClick={() => deleteActivity(index)}
+                onClick={() => deleteTask(index)}
                 style={{
                   background: "#ff5c5c",
                   color: "white",
@@ -170,7 +185,7 @@ function App() {
             fontSize: "14px"
           }}
         >
-          Stay organized, stay productive, achieve your goals!
+          Assign tasks, manage work, achieve goals!
         </p>
 
       </div>
