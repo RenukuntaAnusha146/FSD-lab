@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<div class="container">
+
+    <h1>Weather Forecast Dashboard</h1>
+
+    <div class="search-box">
+        <input type="text" id="citySelect" placeholder="Enter city name">
+        <button id="searchBtn">Get Weather</button>
+    </div>
+
+    <p id="message"></p>
+
+    <div id="weather" class="hidden">
+
+        <div class="current-weather">
+
+            <h2 id="location"></h2>
+
+            <div class="temperature">
+                <span id="temperature"></span>°C
+            </div>
+
+            <p id="description"></p>
+
+            <div class="details">
+
+                <div>
+                    <b>Humidity</b>
+                    <span id="humidity"></span>%
+                </div>
+
+                <div>
+                    <b>Wind</b>
+                    <span id="wind"></span> km/h
+                </div>
+
+            </div>
+
+        </div>
+
+        <h2 class="forecast-title">10-Day Forecast</h2>
+
+        <div id="forecast" class="forecast"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
