@@ -1,0 +1,67 @@
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    padding:30px;
+    font-family:Arial;
+    background:#4facfe;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+h1,.forecast-title{
+    text-align:center;
+    color:white;
+}
+
+.search-box{
+    display:flex;
+    gap:10px;
+}
+
+input,button{
+    padding:12px;
+    border:none;
+    border-radius:5px;
+}
+
+input{flex:1}
+
+button{
+    background:black;
+    color:white;
+    cursor:pointer;
+}
+
+.current-weather,.forecast-card{
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.temperature{
+    font-size:50px;
+}
+
+.details{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.forecast{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:10px;
+}
+
+.hidden{display:none}
+
+@media(max-width:700px){
+    .forecast{grid-template-columns:repeat(2,1fr)}
+}
