@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "title": "Yellow leaves",
+    "symptom": "Leaves turn yellow",
+    "cause": "Overwatering, poor drainage or nutrient problems",
+    "solution": "Check soil moisture and drainage before watering again",
+    "prevention": "Use a pot with drainage holes and check soil before watering."
+  },
+  {
+    "id": 2,
+    "title": "Brown leaf tips",
+    "symptom": "Leaf tips become brown and dry",
+    "cause": "Dry air, salt buildup or irregular watering",
+    "solution": "Trim dry tips and review watering and fertilizer use",
+    "prevention": "Water consistently and avoid excess fertilizer."
+  },
+  {
+    "id": 3,
+    "title": "Wilting",
+    "symptom": "Leaves droop or hang down",
+    "cause": "Dry soil, waterlogged roots or heat stress",
+    "solution": "Check soil first; water if dry and improve drainage if soggy",
+    "prevention": "Check soil moisture regularly."
+  },
+  {
+    "id": 4,
+    "title": "Root rot",
+    "symptom": "Roots are dark, soft or smell rotten",
+    "cause": "Prolonged waterlogged soil",
+    "solution": "Remove rotten roots and repot in fresh, well-draining mix",
+    "prevention": "Avoid standing water."
+  },
+  {
+    "id": 5,
+    "title": "Underwatering",
+    "symptom": "Dry soil and limp leaves",
+    "cause": "Watering too infrequently",
+    "solution": "Water thoroughly when appropriate and let excess drain",
+    "prevention": "Set reminders and check soil."
+  },
+  {
+    "id": 6,
+    "title": "Overwatering",
+    "symptom": "Wet soil with yellowing leaves",
+    "cause": "Watering too often",
+    "solution": "Pause watering until soil reaches the right moisture level",
+    "prevention": "Check soil before watering."
+  },
+  {
+    "id": 7,
+    "title": "Waterlogged soil",
+    "symptom": "Soil stays soggy for days",
+    "cause": "Poor drainage or oversized pot",
+    "solution": "Empty standing water and check drainage holes",
+    "prevention": "Use suitable soil and a pot with drainage."
+  },
+  {
+    "id": 8,
+    "title": "Dry, compacted soil",
+    "symptom": "Water runs off dry soil",
+    "cause": "Soil has become hydrophobic or compacted",
+    "solution": "Rewet slowly in stages and loosen the surface gently",
+    "prevention": "Use a suitable potting mix."
+  },
+  {
+    "id": 9,
+    "title": "Foul-smelling soil",
+    "symptom": "Soil smells sour or rotten",
+    "cause": "Poor aeration and decaying roots",
+    "solution": "Inspect roots and replace rotten material if needed",
+    "prevention": "Improve drainage and avoid overwatering."
+  },
+  {
+    "id": 10,
+    "title": "Leaf drop",
+    "symptom": "Leaves fall unexpectedly",
+    "cause": "Stress, temperature changes or watering problems",
+    "solution": "Check recent changes, light and soil moisture",
+    "prevention": "Keep growing conditions stable."
+  },
+  {
+    "id": 11,
+    "title": "Slow growth",
+    "symptom": "Little new growth appears",
+    "cause": "Low light, poor nutrition or seasonal dormancy",
+    "solution": "Check light and the plant’s seasonal needs",
+    "prevention": "Provide suitable light and feeding."
+  },
+  {
+    "id": 12,
+    "title": "Leggy stems",
+    "symptom": "Long stems with large gaps between leaves",
+    "cause": "Insufficient light",
+    "solution": "Move gradually to brighter suitable light",
+    "prevention": "Provide species-appropriate light."
+  },
+  {
+    "id": 13,
+    "title": "Pale leaves",
+    "symptom": "Leaves lose their usual green colour",
+    "cause": "Low light or nutrient deficiency",
+    "solution": "Check light and soil before adding fertilizer",
+    "prevention": "Use balanced nutrition and suitable light."
+  },
+  {
+    "id": 14,
+    "title": "Leaf scorch",
+    "symptom": "Dry burnt-looking patches",
+    "cause": "Strong sun, heat or fertilizer salts",
+    "solution": "Move from harsh sun and review recent feeding",
+    "prevention": "Acclimate plants gradually to stronger light."
+  },
+  {
+    "id": 15,
+    "title": "Cold damage",
+    "symptom": "Leaves turn black or limp after cold",
+    "cause": "Temperature below plant tolerance",
+    "solution": "Move to a suitable warmer location",
+    "prevention": "Protect sensitive plants from cold."
+  },
+  {
+    "id": 16,
+    "title": "Heat stress",
+    "symptom": "Leaves droop during hot hours",
+    "cause": "High temperature and rapid water loss",
+    "solution": "Provide shade and check soil moisture",
+    "prevention": "Protect plants during heatwaves."
+  },
+  {
+    "id": 17,
+    "title": "Curling leaves",
+    "symptom": "Leaves curl inward or outward",
+    "cause": "Heat, watering stress or pests",
+    "solution": "Inspect leaf undersides and check soil moisture",
+    "prevention": "Avoid sudden care changes."
+  },
+  {
+    "id": 18,
+    "title": "White powdery coating",
+    "symptom": "White powder appears on leaves",
+    "cause": "Possible powdery mildew",
+    "solution": "Remove badly affected leaves and improve airflow",
+    "prevention": "Avoid crowding and monitor foliage."
+  },
+  {
+    "id": 19,
+    "title": "Downy mildew",
+    "symptom": "Yellow patches and growth under leaves",
+    "cause": "Possible downy mildew infection",
+    "solution": "Remove affected foliage and seek plant-specific treatment advice",
+    "prevention": "Improve airflow and avoid prolonged leaf wetness."
+  },
+  {
+    "id": 20,
+    "title": "Black leaf spots",
+    "symptom": "Dark spots appear on foliage",
+    "cause": "Possible fungal or bacterial disease",
+    "solution": "Remove affected leaves and avoid splashing between plants",
+    "prevention": "Use clean tools and improve airflow."
+  },
+  {
+    "id": 21,
+    "title": "Rust disease",
+    "symptom": "Orange or brown powdery spots",
+    "cause": "Possible rust fungus",
+    "solution": "Remove infected leaves and isolate if spreading",
+    "prevention": "Monitor plants and provide airflow."
+  },
+  {
+    "id": 22,
+    "title": "Leaf blight",
+    "symptom": "Large spreading dead patches",
+    "cause": "Possible disease or environmental injury",
+    "solution": "Remove affected tissue and check watering and airflow",
+    "prevention": "Avoid wet foliage overnight."
+  },
+  {
+    "id": 23,
+    "title": "Bacterial leaf spot",
+    "symptom": "Water-soaked spots darken",
+    "cause": "Possible bacterial infection",
+    "solution": "Isolate plant and remove affected leaves with clean tools",
+    "prevention": "Avoid splashing water between plants."
+  },
+  {
+    "id": 24,
+    "title": "Mosaic pattern",
+    "symptom": "Irregular light and dark green patches",
+    "cause": "Possible viral disease or pest damage",
+    "solution": "Isolate plant and inspect for pests; seek diagnosis",
+    "prevention": "Control pests and clean tools."
+  },
+  {
+    "id": 25,
+    "title": "Damping off",
+    "symptom": "Seedlings collapse at soil level",
+    "cause": "Seedling disease favoured by wet conditions",
+    "solution": "Remove collapsed seedlings and improve drainage",
+    "prevention": "Use clean seed-starting mix and avoid overwatering."
+  },
+  {
+    "id": 26,
+    "title": "Stem canker",
+    "symptom": "Sunken or cracked stem lesions",
+    "cause": "Possible infection or injury",
+    "solution": "Remove affected parts if appropriate and seek diagnosis",
+    "prevention": "Keep tools clean and avoid stem injuries."
+  },
+  {
+    "id": 27,
+    "title": "Sooty mold",
+    "symptom": "Black coating on leaves",
+    "cause": "Fungus growing on insect honeydew",
+    "solution": "Clean leaves gently and control honeydew-producing insects",
+    "prevention": "Inspect for aphids, scale and whiteflies."
+  },
+  {
+    "id": 28,
+    "title": "Aphids",
+    "symptom": "Small insects cluster on soft shoots",
+    "cause": "Aphid infestation",
+    "solution": "Rinse insects off or use a suitable labeled insecticidal soap",
+    "prevention": "Inspect new growth frequently."
+  },
+  {
+    "id": 29,
+    "title": "Spider mites",
+    "symptom": "Fine webbing and speckled leaves",
+    "cause": "Spider mites",
+    "solution": "Rinse leaf undersides and use a suitable labeled treatment if needed",
+    "prevention": "Inspect undersides and avoid excessive dryness."
+  },
+  {
+    "id": 30,
+    "title": "Mealybugs",
+    "symptom": "White cotton-like clusters",
+    "cause": "Mealybug infestation",
+    "solution": "Remove visible insects and use an appropriate labeled treatment",
+    "prevention": "Check leaf joints and new plants."
+  },
+  {
+    "id": 31,
+    "title": "Scale insects",
+    "symptom": "Small hard bumps on stems or leaves",
+    "cause": "Scale insect infestation",
+    "solution": "Remove carefully and use a suitable labeled treatment if needed",
+    "prevention": "Inspect stems and leaf undersides."
+  },
+  {
+    "id": 32,
+    "title": "Whiteflies",
+    "symptom": "Tiny white insects fly up when disturbed",
+    "cause": "Whitefly infestation",
+    "solution": "Rinse foliage and use suitable sticky traps or labeled treatment",
+    "prevention": "Inspect leaf undersides."
+  },
+  {
+    "id": 33,
+    "title": "Fungus gnats",
+    "symptom": "Small flies around damp soil",
+    "cause": "Moist potting mix and organic matter",
+    "solution": "Let surface dry appropriately and use yellow sticky traps",
+    "prevention": "Avoid constantly wet soil."
+  },
+  {
+    "id": 34,
+    "title": "Thrips",
+    "symptom": "Silvery streaks and tiny dark specks",
+    "cause": "Thrips feeding on plant tissue",
+    "solution": "Isolate plant and use an appropriate labeled treatment",
+    "prevention": "Inspect new plants and flower buds."
+  },
+  {
+    "id": 35,
+    "title": "Caterpillar damage",
+    "symptom": "Chewed leaves and holes",
+    "cause": "Leaf-eating caterpillars",
+    "solution": "Inspect leaves and remove caterpillars where practical",
+    "prevention": "Check leaves frequently."
+  },
+  {
+    "id": 36,
+    "title": "Slugs and snails",
+    "symptom": "Irregular holes and slime trails",
+    "cause": "Slug or snail feeding",
+    "solution": "Remove pests and reduce damp hiding places",
+    "prevention": "Keep growing areas tidy."
+  },
+  {
+    "id": 37,
+    "title": "Leaf miners",
+    "symptom": "Winding pale trails inside leaves",
+    "cause": "Larvae feeding within leaves",
+    "solution": "Remove badly affected leaves and identify the pest",
+    "prevention": "Inspect foliage regularly."
+  },
+  {
+    "id": 38,
+    "title": "Ants on plants",
+    "symptom": "Ants repeatedly climb stems",
+    "cause": "Often attracted by honeydew insects",
+    "solution": "Check for aphids, scale or mealybugs and address them",
+    "prevention": "Monitor stems and leaf joints."
+  },
+  {
+    "id": 39,
+    "title": "Root-knot nematodes",
+    "symptom": "Swollen root galls and weak growth",
+    "cause": "Possible root-knot nematodes",
+    "solution": "Confirm diagnosis and replace contaminated medium when appropriate",
+    "prevention": "Use clean soil and healthy planting material."
+  },
+  {
+    "id": 40,
+    "title": "Bird damage",
+    "symptom": "Seedlings pulled up or fruit pecked",
+    "cause": "Bird feeding or disturbance",
+    "solution": "Use suitable protective netting or covers",
+    "prevention": "Protect vulnerable plants safely."
+  },
+  {
+    "id": 41,
+    "title": "Rodent damage",
+    "symptom": "Gnawed stems or missing seeds",
+    "cause": "Rodent feeding",
+    "solution": "Protect pots and remove food sources safely",
+    "prevention": "Keep growing areas clean."
+  },
+  {
+    "id": 42,
+    "title": "Pest eggs",
+    "symptom": "Clusters of tiny eggs on leaves",
+    "cause": "Insects laying eggs",
+    "solution": "Identify eggs before removing; some may be beneficial insects",
+    "prevention": "Inspect leaf undersides."
+  },
+  {
+    "id": 43,
+    "title": "Nitrogen deficiency",
+    "symptom": "Older leaves yellow and growth slows",
+    "cause": "Insufficient available nitrogen",
+    "solution": "Check soil and use suitable fertilizer as directed if needed",
+    "prevention": "Feed appropriately during active growth."
+  },
+  {
+    "id": 44,
+    "title": "Iron deficiency",
+    "symptom": "Young leaves yellow between green veins",
+    "cause": "Iron unavailable to roots, sometimes due to high pH",
+    "solution": "Check pH and growing conditions before adding iron",
+    "prevention": "Use suitable soil and water."
+  },
+  {
+    "id": 45,
+    "title": "Magnesium deficiency",
+    "symptom": "Older leaves yellow between veins",
+    "cause": "Possible magnesium deficiency",
+    "solution": "Confirm the issue before applying a suitable supplement",
+    "prevention": "Avoid unbalanced fertilizing."
+  },
+  {
+    "id": 46,
+    "title": "Potassium deficiency",
+    "symptom": "Leaf edges yellow or brown",
+    "cause": "Low potassium or root uptake problems",
+    "solution": "Check nutrition and roots; fertilize appropriately if needed",
+    "prevention": "Use balanced plant nutrition."
+  },
+  {
+    "id": 47,
+    "title": "Phosphorus deficiency",
+    "symptom": "Slow growth and unusual dark foliage",
+    "cause": "Possible phosphorus deficiency or cold roots",
+    "solution": "Check soil and temperature before fertilizing",
+    "prevention": "Maintain suitable growing conditions."
+  },
+  {
+    "id": 48,
+    "title": "Calcium-related disorders",
+    "symptom": "Distorted new leaves or fruit-end rot",
+    "cause": "Calcium delivery problems or irregular water supply",
+    "solution": "Keep moisture consistent and check growing conditions",
+    "prevention": "Avoid irregular watering and excess salts."
+  },
+  {
+    "id": 49,
+    "title": "Overfertilizing",
+    "symptom": "Brown tips or crust on soil",
+    "cause": "Excess fertilizer salts",
+    "solution": "Pause feeding and flush salts if drainage is good",
+    "prevention": "Follow fertilizer label doses."
+  },
+  {
+    "id": 50,
+    "title": "Fertilizer burn",
+    "symptom": "Leaf-edge damage after feeding",
+    "cause": "Excess fertilizer concentration",
+    "solution": "Flush soil carefully if the pot drains freely",
+    "prevention": "Never exceed label instructions."
+  },
+  {
+    "id": 51,
+    "title": "High soil pH",
+    "symptom": "Repeated yellowing despite feeding",
+    "cause": "Nutrients may be unavailable at high pH",
+    "solution": "Test growing medium and adjust appropriately",
+    "prevention": "Choose a medium suitable for the species."
+  },
+  {
+    "id": 52,
+    "title": "Salt buildup",
+    "symptom": "White crust on soil or pot rim",
+    "cause": "Mineral salts from fertilizer or water",
+    "solution": "Flush with suitable water if drainage is good",
+    "prevention": "Feed moderately and monitor water quality."
+  },
+  {
+    "id": 53,
+    "title": "No flowers",
+    "symptom": "Healthy foliage but no blooms",
+    "cause": "Insufficient light, immature plant or excess nitrogen",
+    "solution": "Check species-specific flowering requirements and light",
+    "prevention": "Provide appropriate light and seasonal care."
+  },
+  {
+    "id": 54,
+    "title": "Flowers falling",
+    "symptom": "Flowers or blooms drop early",
+    "cause": "Heat, inconsistent watering or poor pollination",
+    "solution": "Stabilize watering and temperature",
+    "prevention": "Avoid sudden environmental changes."
+  },
+  {
+    "id": 55,
+    "title": "Bud drop",
+    "symptom": "Unopened buds fall",
+    "cause": "Stress, dry air or irregular watering",
+    "solution": "Check moisture, light and temperature",
+    "prevention": "Keep conditions stable."
+  },
+  {
+    "id": 56,
+    "title": "Poor fruit set",
+    "symptom": "Flowers form but little fruit develops",
+    "cause": "Poor pollination or unsuitable conditions",
+    "solution": "Check pollination needs and local growing conditions",
+    "prevention": "Support pollinators and suitable care."
+  },
+  {
+    "id": 57,
+    "title": "Fruit dropping",
+    "symptom": "Small fruits fall early",
+    "cause": "Water stress, heat or natural thinning",
+    "solution": "Maintain even moisture and check plant health",
+    "prevention": "Avoid major watering swings."
+  },
+  {
+    "id": 58,
+    "title": "Blossom-end rot",
+    "symptom": "Dark sunken patch at fruit blossom end",
+    "cause": "Calcium transport disruption often linked to irregular moisture",
+    "solution": "Remove affected fruit and maintain consistent moisture",
+    "prevention": "Avoid dry-wet cycles."
+  },
+  {
+    "id": 59,
+    "title": "Fruit cracking",
+    "symptom": "Fruit splits open",
+    "cause": "Rapid water uptake after dry conditions",
+    "solution": "Harvest ripe fruit and stabilize watering",
+    "prevention": "Keep soil moisture consistent."
+  },
+  {
+    "id": 60,
+    "title": "Sunscald on fruit",
+    "symptom": "Pale or papery patches on exposed fruit",
+    "cause": "Strong sun on exposed fruit",
+    "solution": "Remove severely damaged fruit and protect exposed fruit",
+    "prevention": "Maintain suitable foliage cover."
+  },
+  {
+    "id": 61,
+    "title": "Poor pollination",
+    "symptom": "Flowers do not set fruit",
+    "cause": "Low pollinator activity or lack of compatible pollen",
+    "solution": "Check whether hand pollination suits the species",
+    "prevention": "Encourage pollinators and compatible varieties."
+  },
+  {
+    "id": 62,
+    "title": "Small fruit",
+    "symptom": "Fruit remains undersized",
+    "cause": "Low light, nutrient imbalance or heavy fruit load",
+    "solution": "Check light, nutrition and the plant’s fruiting needs",
+    "prevention": "Provide balanced care."
+  },
+  {
+    "id": 63,
+    "title": "Misshapen fruit",
+    "symptom": "Fruit grows unevenly",
+    "cause": "Incomplete pollination, temperature stress or pests",
+    "solution": "Inspect fruit and flowers and review growing conditions",
+    "prevention": "Maintain consistent care and pollinator access."
+  },
+  {
+    "id": 64,
+    "title": "Fruit rotting",
+    "symptom": "Soft, decaying fruit",
+    "cause": "Disease, injury or prolonged moisture",
+    "solution": "Remove rotten fruit and improve airflow",
+    "prevention": "Harvest carefully and avoid excess moisture."
+  },
+  {
+    "id": 65,
+    "title": "Flower buds fail to open",
+    "symptom": "Buds dry or remain closed",
+    "cause": "Environmental stress or pest damage",
+    "solution": "Inspect buds and check temperature and moisture",
+    "prevention": "Provide stable species-appropriate conditions."
+  },
+  {
+    "id": 66,
+    "title": "Rootbound plant",
+    "symptom": "Roots circle tightly inside the pot",
+    "cause": "Plant has outgrown its container",
+    "solution": "Repot into a slightly larger container if appropriate",
+    "prevention": "Check root space periodically."
+  },
+  {
+    "id": 67,
+    "title": "Roots growing from drainage holes",
+    "symptom": "Roots emerge from pot bottom",
+    "cause": "Roots seeking space or moisture",
+    "solution": "Check root density and repot if crowded",
+    "prevention": "Choose an appropriate pot size."
+  },
+  {
+    "id": 68,
+    "title": "Leaning plant",
+    "symptom": "Stem bends toward one side",
+    "cause": "Uneven light or weak support",
+    "solution": "Rotate pot gradually and provide support if needed",
+    "prevention": "Provide balanced light."
+  },
+  {
+    "id": 69,
+    "title": "Broken stem",
+    "symptom": "Stem cracked or snapped",
+    "cause": "Physical damage or heavy growth",
+    "solution": "Make a clean cut where appropriate and support remaining growth",
+    "prevention": "Handle carefully and support heavy stems."
+  },
+  {
+    "id": 70,
+    "title": "Girdling roots",
+    "symptom": "Roots circle and constrict stem base",
+    "cause": "Root growth pattern or tight container",
+    "solution": "Seek careful root correction during repotting",
+    "prevention": "Inspect roots during transplanting."
+  },
+  {
+    "id": 71,
+    "title": "Poor drainage",
+    "symptom": "Water remains in the saucer or pot",
+    "cause": "Blocked holes or unsuitable container",
+    "solution": "Clear drainage holes and empty the saucer",
+    "prevention": "Use containers with drainage."
+  },
+  {
+    "id": 72,
+    "title": "Pot too large",
+    "symptom": "Growing medium stays wet too long",
+    "cause": "Container volume exceeds root system needs",
+    "solution": "Consider an appropriately sized pot and suitable mix",
+    "prevention": "Increase pot size gradually."
+  },
+  {
+    "id": 73,
+    "title": "Pot too small",
+    "symptom": "Plant dries rapidly and roots crowd",
+    "cause": "Container too small for root system",
+    "solution": "Repot when roots are crowded",
+    "prevention": "Check roots during active growth."
+  },
+  {
+    "id": 74,
+    "title": "Mold on soil surface",
+    "symptom": "White fuzzy growth on potting mix",
+    "cause": "Persistently damp surface and organic material",
+    "solution": "Remove surface growth and let the top layer dry appropriately",
+    "prevention": "Improve airflow and avoid overwatering."
+  },
+  {
+    "id": 75,
+    "title": "Algae on soil",
+    "symptom": "Green film on soil surface",
+    "cause": "Frequent moisture and light on soil",
+    "solution": "Remove film and adjust watering surface conditions",
+    "prevention": "Avoid keeping the surface constantly wet."
+  },
+  {
+    "id": 76,
+    "title": "Water pools on soil",
+    "symptom": "Water sits on top instead of soaking in",
+    "cause": "Compacted or poorly structured medium",
+    "solution": "Loosen surface gently and assess whether repotting is needed",
+    "prevention": "Use an appropriate potting mix."
+  },
+  {
+    "id": 77,
+    "title": "Water drains too quickly",
+    "symptom": "Water runs straight through the pot",
+    "cause": "Very dry or unsuitable medium",
+    "solution": "Check whether soil absorbs water evenly and rewet gradually",
+    "prevention": "Use suitable growing medium."
+  },
+  {
+    "id": 78,
+    "title": "Dusty leaves",
+    "symptom": "Dust coats leaf surface",
+    "cause": "Indoor dust accumulation",
+    "solution": "Wipe gently with a damp soft cloth if suitable",
+    "prevention": "Clean foliage periodically."
+  },
+  {
+    "id": 79,
+    "title": "Sticky leaves",
+    "symptom": "Leaves feel sticky",
+    "cause": "Honeydew from sap-feeding insects",
+    "solution": "Inspect and control aphids, scale or whiteflies",
+    "prevention": "Inspect plants regularly."
+  },
+  {
+    "id": 80,
+    "title": "Silvery streaks",
+    "symptom": "Silver lines or scraped patches",
+    "cause": "Thrips or other surface-feeding pests",
+    "solution": "Inspect for insects and isolate if necessary",
+    "prevention": "Check new plants before bringing them home."
+  },
+  {
+    "id": 81,
+    "title": "Mottled leaves",
+    "symptom": "Irregular light and dark patterns",
+    "cause": "Natural variegation, pests or possible virus",
+    "solution": "Compare healthy growth and inspect for pests",
+    "prevention": "Use clean tools and control pests."
+  },
+  {
+    "id": 82,
+    "title": "Transparent leaves",
+    "symptom": "Leaves look watery or translucent",
+    "cause": "Cold damage, excess moisture or injury",
+    "solution": "Remove damaged leaves and correct the cause",
+    "prevention": "Protect sensitive plants from cold."
+  },
+  {
+    "id": 83,
+    "title": "Red or purple leaves",
+    "symptom": "Leaves develop red or purple tones",
+    "cause": "Natural colouring, cold stress or nutrient issues",
+    "solution": "Check species traits and recent environmental changes",
+    "prevention": "Maintain species-appropriate conditions."
+  },
+  {
+    "id": 84,
+    "title": "White bleached leaves",
+    "symptom": "Leaf surfaces look bleached",
+    "cause": "Sunburn or surface damage",
+    "solution": "Move away from harsh sun and inspect the leaf surface",
+    "prevention": "Increase light exposure gradually."
+  },
+  {
+    "id": 85,
+    "title": "Yellow leaf edges",
+    "symptom": "Yellowing begins around margins",
+    "cause": "Watering stress or nutrient imbalance",
+    "solution": "Review watering, drainage and fertilizer use",
+    "prevention": "Avoid excess fertilizer and irregular watering."
+  },
+  {
+    "id": 86,
+    "title": "Tiny leaves",
+    "symptom": "New leaves are smaller than usual",
+    "cause": "Low light, root stress or insufficient nutrition",
+    "solution": "Check light, roots and growing conditions",
+    "prevention": "Maintain suitable care."
+  },
+  {
+    "id": 87,
+    "title": "No new leaves",
+    "symptom": "Plant produces no new foliage",
+    "cause": "Dormancy, low light or root stress",
+    "solution": "Check season, light and root health",
+    "prevention": "Follow species-specific seasonal care."
+  },
+  {
+    "id": 88,
+    "title": "Excessive soft growth",
+    "symptom": "Stems are weak and soft",
+    "cause": "Excess nitrogen or insufficient light",
+    "solution": "Reduce excessive feeding and improve light",
+    "prevention": "Use balanced fertilizer."
+  },
+  {
+    "id": 89,
+    "title": "Buds eaten",
+    "symptom": "Flower buds have holes or missing tissue",
+    "cause": "Insects or other animals",
+    "solution": "Inspect buds and identify the cause before treatment",
+    "prevention": "Monitor buds and use suitable protection."
+  },
+  {
+    "id": 90,
+    "title": "Herbs taste weak",
+    "symptom": "Herb leaves have little aroma or flavour",
+    "cause": "Low light, old growth or unsuitable harvest timing",
+    "solution": "Provide appropriate light and harvest correctly",
+    "prevention": "Grow herbs under suitable conditions."
+  },
+  {
+    "id": 91,
+    "title": "Mint spreading too much",
+    "symptom": "Mint sends runners beyond its area",
+    "cause": "Naturally vigorous spreading growth",
+    "solution": "Grow mint in a container or trim runners",
+    "prevention": "Contain spreading roots."
+  },
+  {
+    "id": 92,
+    "title": "Seedlings are leggy",
+    "symptom": "Seedlings have long weak stems",
+    "cause": "Insufficient light",
+    "solution": "Provide brighter suitable light and avoid overheating",
+    "prevention": "Give seedlings enough light."
+  },
+  {
+    "id": 93,
+    "title": "Seeds fail to germinate",
+    "symptom": "Few or no seedlings appear",
+    "cause": "Old seeds, wrong depth, temperature or moisture",
+    "solution": "Check seed age and species-specific sowing instructions",
+    "prevention": "Use fresh seed and suitable conditions."
+  },
+  {
+    "id": 94,
+    "title": "Seedlings turn yellow",
+    "symptom": "Young seedlings become pale",
+    "cause": "Excess water, low light or depleted seed-starting mix",
+    "solution": "Improve light and check moisture and nutrition",
+    "prevention": "Avoid waterlogging."
+  },
+  {
+    "id": 95,
+    "title": "Transplant shock",
+    "symptom": "Plant wilts after repotting",
+    "cause": "Root disturbance and environmental change",
+    "solution": "Provide gentle suitable light and stable moisture",
+    "prevention": "Handle roots carefully and acclimate gradually."
+  },
+  {
+    "id": 96,
+    "title": "Plant not recovering",
+    "symptom": "Symptoms continue after care changes",
+    "cause": "Original cause may remain or diagnosis may be wrong",
+    "solution": "Recheck symptoms, roots, pests and environmental conditions",
+    "prevention": "Change one care factor at a time and monitor."
+  },
+  {
+    "id": 97,
+    "title": "Poor indoor flowering",
+    "symptom": "Indoor plant rarely blooms",
+    "cause": "Insufficient light or missing seasonal cues",
+    "solution": "Check the plant’s light and seasonal requirements",
+    "prevention": "Choose a suitable location and follow species care."
+  },
+  {
+    "id": 98,
+    "title": "Leaves wet for too long",
+    "symptom": "Foliage stays damp for hours",
+    "cause": "Poor airflow or frequent overhead watering",
+    "solution": "Improve airflow and water at soil level when suitable",
+    "prevention": "Avoid unnecessary leaf wetness."
+  },
+  {
+    "id": 99,
+    "title": "Damaged roots after repotting",
+    "symptom": "Plant wilts after root handling",
+    "cause": "Root injury during transplant",
+    "solution": "Reduce stress and maintain appropriate moisture",
+    "prevention": "Handle roots gently during repotting."
+  },
+  {
+    "id": 100,
+    "title": "Pest recurrence",
+    "symptom": "Insects return after treatment",
+    "cause": "Eggs remain or nearby plants are infested",
+    "solution": "Repeat inspection and treatment according to product label",
+    "prevention": "Check nearby plants and follow treatment directions."
+  }
+]
